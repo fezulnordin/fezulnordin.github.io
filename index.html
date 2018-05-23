@@ -11,16 +11,20 @@
   <form id="contact" action="" method="post">
     <h3>Login Page</h3>
     <h4>Enter the credential</h4>
+
     <fieldset>
       <input placeholder="username" type="email" tabindex="1" id="username" required>
     </fieldset>
     <fieldset>
       <input placeholder="Password" type="password" tabindex="2" id="password" required>
     </fieldset>
+     <span id="login_failed"></span>
   
     <fieldset>
       <button name="submit" type="submit" id="submit" onclick="validate()" >Submit</button>
     </fieldset>
+
+
  
   </form>
 </div>
